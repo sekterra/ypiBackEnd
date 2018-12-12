@@ -1,0 +1,7 @@
+com\tommy\ypi\model\Answer.class
+com\tommy\ypi\controller\AnswerController.class
+com\tommy\ypi\repository\AnswerRepository.class
+com\tommy\ypi\exception\ResourceNotFoundException.class
+com\tommy\ypi\repository\QuestionRepository.class
+com\tommy\ypi\controller\QuestionController.class
+com\tommy\ypi\model\Question.class

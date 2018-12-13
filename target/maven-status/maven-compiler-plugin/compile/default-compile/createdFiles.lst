@@ -5,3 +5,4 @@ com\tommy\ypi\exception\ResourceNotFoundException.class
 com\tommy\ypi\repository\QuestionRepository.class
 com\tommy\ypi\controller\QuestionController.class
 com\tommy\ypi\model\Question.class
+com\tommy\ypi\configuration\WebConfig.class

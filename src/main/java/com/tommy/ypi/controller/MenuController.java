@@ -21,6 +21,12 @@ public class MenuController {
 		return menuRepository.findAll(pageable);
 	}
 
+	@GetMapping("/menus/{menuId}")
+	public Menu getMenu(@PathVariable Long menuId) {
+		return menuRepository.findById(menuId)
+						.orElseThrow(() -> new ResourceNotFoundException("Menu not found with id " + menuId));
+	}
+
 	@PostMapping("/menus")
 	public Menu createMenu(@Valid @RequestBody Menu menu) {
 		return menuRepository.save(menu);
